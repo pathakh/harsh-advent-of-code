@@ -16,6 +16,10 @@ module Day11
       end
 
       loop do
+        # in the video I accidentally mentioned the word "recursive" here
+        # it actually isn't recursive as the method isn't calling itself.
+        # We are just calling the same method iteratively to retrieve
+        # the next potentially valid password
         @password = increment_password(@password)
         break if is_valid?(@password)
       end
