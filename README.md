@@ -16,3 +16,6 @@ SantaFloorCalculator.call(floor_movement)
 ## Specs
   Run ```bundle``` to download rspec library
   Run specs using ```rspec spec```
+  
+### Using AI
+  I asked AI for regex format.

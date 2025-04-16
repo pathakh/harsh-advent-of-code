@@ -14,7 +14,7 @@ RSpec.describe Day1::SantaFloorCalculator do
     end
 
     context "when instructions result in floor 0" do
-      let(:instructions) { '(())' }
+      let(:instructions) { ')(()' }
 
       it "returns 0 for (())" do
         expect(subject).to eq(0)

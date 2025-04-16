@@ -13,6 +13,7 @@ RSpec.describe Day11::PasswordGenerator do
     context 'when the initial password is invalid' do
       context 'when password is less than 8 characters' do
         let(:password) { 'short' }
+
         it_behaves_like 'invalid_password'
       end
 
