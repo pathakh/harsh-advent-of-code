@@ -7,7 +7,7 @@ module SharedExamples
 
   shared_examples_for 'invalid_instructions' do
     it 'raises InvalidInstructionError' do
-      expect { subject }.to raise_error(Day1::SantaFloorCalculator::InvalidInstructionError)
+      expect { subject }.to raise_error(Day1::FloorCalculator::InvalidInstructionError)
     end
   end
 end

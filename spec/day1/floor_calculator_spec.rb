@@ -1,10 +1,10 @@
-require_relative '../../day1/santa_floor_calculator'
+require_relative '../../day1/floor_calculator'
 require_relative '../shared_examples'
 
-RSpec.describe Day1::SantaFloorCalculator do
+RSpec.describe Day1::FloorCalculator do
   include SharedExamples
 
-  let(:subject) { Day1::SantaFloorCalculator.call(instructions) }
+  let(:subject) { Day1::FloorCalculator.call(instructions) }
 
   describe '.call' do
     context 'when invalid instructions are passed in' do

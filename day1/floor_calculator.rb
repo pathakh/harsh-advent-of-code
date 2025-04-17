@@ -2,7 +2,7 @@
 
 # day 1 of year 2015
 module Day1
-  class SantaFloorCalculator
+  class FloorCalculator
     class InvalidInstructionError < StandardError; end
 
     VALID_INSTRUCTIONS_REGEX = /^[()]*$/

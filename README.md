@@ -16,7 +16,7 @@ Pass in a valid password to the above call and return an incremented valid passw
 ### 2015 day 1
 ```
 floor_movement = '(())'
-SantaFloorCalculator.call(floor_movement)
+FloorCalculator.call(floor_movement)
 ```
 
 ## Specs
